@@ -6,8 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "clean": "npx parcel clean",
-    "build": "npm run clean && parcel build",
+    "build": "parcel build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
